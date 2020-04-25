@@ -8,7 +8,7 @@ body {
 
 div {
     background: #fff;
-    margin: 50px;
+    margin-bottom: 50px;
     padding: 90px;
 }
 
@@ -21,12 +21,12 @@ div {
 
 #app-4 {
     margin: 50px, auto;
-    padding: 80px;
+    
 }
 
 
 
-ul {
+/* ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -36,7 +36,7 @@ ul {
       background-color: #fff;
       width: 60%;
         margin: auto;
-  }
+  } */
 
   button {
       padding: 14px 28px;
@@ -49,4 +49,70 @@ ul {
 
   #app-6 {
       margin: 50px auto;
+  }
+
+  body {
+    font-family: monospace;
+    font-size: large;
+    text-align: center;
+ 
+}
+
+
+#app {
+    max-width: 600px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #8af68a;
+    margin: 5px;
+    padding: 5px 20px 50px 20px;
+    -webkit-box-shadow: 15px 23px 12px -6px rgba(0,0,0,0.16);
+    -moz-box-shadow: 15px 23px 12px -6px rgba(0,0,0,0.16);
+    box-shadow: 15px 23px 12px -6px rgba(0,0,0,0.16);
+}
+
+
+
+h2 {
+    font-size: 1.4rem;
+    white-space: nowrap;
+    text-shadow: initial;
+}
+ul {
+    width: 60%;
+    list-style-type: none;
+    margin: 0 auto;
+    background: #34495e;
+    padding: 20px;
+  }
+
+
+#app-6 p {
+    font-weight: 800;
+    font-size: 2em;
+    background-color: #fff;
+    background-size: inherit;
+    max-width: 60%;
+    margin: 15px auto;
+}
+
+ul li {
+    font-family: sans-serif;
+    font-style: italic;
+    background: #cce5ff;
+    margin: 5px;
+}
+
+
+
+/* media queries */
+
+@media only screen and (max-width: 780px) {
+    /* For mobile phones: */
+    h2 {
+        font-size: 2.4rem;
+    }
   }

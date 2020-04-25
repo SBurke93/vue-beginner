@@ -12,9 +12,12 @@
 
     <h1>Vue Sandbox</h1>
 
+
+
     <div id="helloVue">
         {{ message }}
     </div>
+
 
 
 
@@ -25,9 +28,13 @@
         </span>
     </div>
 
+
+
+
     <div id="app-3">
         <span v-if="seen">Now you see me</span>
     </div>
+
 
 
     <div id="app-4">
@@ -37,6 +44,8 @@
             </li>
         </ul>
     </div>
+
+
 
 
     <div id="app-5"><span>
@@ -53,17 +62,7 @@
 
 
 
-    <div id="app-7">
-        <ul>
-            <!--
-            Now we provide each todo-item with the todo object
-            it's representing, so that its content can be dynamic.
-            We also need to provide each component with a "key",
-            which will be explained later.
-          -->
-            <todo-item v-for="item in groceryList" v-bind:todo="item" v-bind:key="item.id"></todo-item>
-        </ul>
-    </div>
+
 
     <div id="vue-app">
         <h2>Refs</h2>
@@ -71,6 +70,20 @@
         <button v-on:click="readRefs">Submit</button>
         <p>Your fav food: {{ output }}</p>
         <div ref="test"></div>
+    </div>
+
+
+
+    <div id="shoppingList" class="container">
+        <h2>{{ title }}</h2>
+        <ul>
+            <li>{{ items[1] }}</li>
+            <li>{{ items[0] }}</li>
+            <li>{{ items[2] }}</li>
+            <li>{{ items[3] }}</li>
+            <li>{{ items[4] }}</li>
+            <li>{{ items[5] }}</li>
+        </ul>
     </div>
 
 

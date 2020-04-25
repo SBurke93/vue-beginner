@@ -82,3 +82,11 @@ new Vue({
     }
 });
 
+var data = {
+    items: ['Banana', 'Apple', 'Pear', 'Artichoke', 'Mango', 'Wasabi'],
+    title: 'My Shopping List'
+};
+new Vue({
+    el: '#shoppingList',
+    data: data
+});
