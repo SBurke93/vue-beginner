@@ -1,3 +1,5 @@
+/*----- General -----*/
+
 body {
     background-color: #41b88c;
     font-size: larger;
@@ -8,76 +10,16 @@ body {
 
 div {
     background: #fff;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     padding: 90px;
 }
 
-#helloVue {
-    max-width: 300px;
-    background: #fff;
-    margin: 50px auto;
-    padding: 20px;
+h1 {
+    font-size: 2.4rem;
+    font-weight: 800;
 }
-
-#app-4 {
-    margin: 50px, auto;
-    
-}
-
-
-
-/* ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  h1 {
-      background-color: #fff;
-      width: 60%;
-        margin: auto;
-  } */
-
-  button {
-      padding: 14px 28px;
-      background-color: #34495e;
-      color: #fff;
-      border: 2px solid #34495e;
-      border-radius: 10px;
-
-  }
-
-  #app-6 {
-      margin: 50px auto;
-  }
-
-  body {
-    font-family: monospace;
-    font-size: large;
-    text-align: center;
- 
-}
-
-
-#app {
-    max-width: 600px;
-    height: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: #8af68a;
-    margin: 5px;
-    padding: 5px 20px 50px 20px;
-    -webkit-box-shadow: 15px 23px 12px -6px rgba(0,0,0,0.16);
-    -moz-box-shadow: 15px 23px 12px -6px rgba(0,0,0,0.16);
-    box-shadow: 15px 23px 12px -6px rgba(0,0,0,0.16);
-}
-
-
-
 h2 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     white-space: nowrap;
     text-shadow: initial;
 }
@@ -87,9 +29,50 @@ ul {
     margin: 0 auto;
     background: #34495e;
     padding: 20px;
+    max-width: 500px; 
+    -webkit-box-shadow: 15px 23px 12px -6px rgba(0,0,0,0.16);
+    -moz-box-shadow: 15px 23px 12px -6px rgba(0,0,0,0.16);
+    box-shadow: 15px 23px 12px -6px rgba(0,0,0,0.16);
   }
+  ul li {
+    font-family: sans-serif;
+    font-style: italic;
+    background: #cce5ff;
+    margin: 5px;
+}
+
+button {
+    padding: 14px 20px;
+    background-color: #34495e;
+    color: #fff;
+    border: 2px solid #34495e;
+    border-radius: 10px;
+}
 
 
+/*----- Apps -----*/
+
+#app-1 {
+    max-width: 700px;
+    background: #fff;
+    margin: 100px auto;
+    padding: 20px;
+}
+#app-2 {
+    margin: 100px, auto; 
+}
+#app-3 {
+    margin: 100px, auto; 
+}
+#app-4 {
+    margin: 100px, auto;
+}
+#app-6 {
+    margin: 100px auto;
+}
+#app-9 {
+    margin: 100px auto;
+}
 #app-6 p {
     font-weight: 800;
     font-size: 2em;
@@ -99,16 +82,7 @@ ul {
     margin: 15px auto;
 }
 
-ul li {
-    font-family: sans-serif;
-    font-style: italic;
-    background: #cce5ff;
-    margin: 5px;
-}
-
-
-
-/* media queries */
+/*----- media queries -----*/
 
 @media only screen and (max-width: 780px) {
     /* For mobile phones: */

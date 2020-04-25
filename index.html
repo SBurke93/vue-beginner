@@ -14,7 +14,7 @@
 
 
 
-    <div id="helloVue">
+    <div id="app-1">
         {{ message }}
     </div>
 
@@ -55,26 +55,30 @@
     </div>
 
 
+
+
     <div id="app-6">
         <p>{{ message }}</p>
         <input v-model="message">
+        Why not try typing something in this box right here.
     </div>
 
 
+    <!-- app 7 deleted -->
 
 
-
-    <div id="vue-app">
-        <h2>Refs</h2>
+    <div id="app-8">
+        <h2>Referencess</h2>
         <input type="text" ref="input" />
         <button v-on:click="readRefs">Submit</button>
-        <p>Your fav food: {{ output }}</p>
+        <p>Your favorite food is {{ output }}</p>
         <div ref="test"></div>
     </div>
 
 
 
-    <div id="shoppingList" class="container">
+
+    <div id="app-9" class="container">
         <h2>{{ title }}</h2>
         <ul>
             <li>{{ items[1] }}</li>
