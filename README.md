@@ -11,4 +11,5 @@ The Vue app attaches itself to a single DOM element then fully controls it.
 Directives are special tokesn in the markup, previxed with v-, that tell the library to do something to the DOM element. 
 
 
+
 I will be working through the "The Net Ninjas" Vue crash course on YT and will add a new repo when beginning vue-cli.
